@@ -1,0 +1,49 @@
+body {
+background: rgb(0, 0, 0);
+font: normal 15pt Arial;
+}
+header {
+color: rgb(255, 255, 255);
+text-align: center;
+
+}
+section {
+
+    background: white;
+    width: 600px;      /* Largura do quadro branco */
+    margin: auto;      /* Centraliza o quadro na tela */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+    text-align: center; /* Garante que o contador e o título fiquem no meio */
+}
+
+footer {
+color: rgba(255, 255, 255, 0.034);
+text-align: center;
+font-style: italic;
+
+}
+#area {
+    /* Aumenta o tamanho */
+    width: 100%;             /* Ocupa a largura total do quadro branco */
+    height: 150px;           /* Define uma altura fixa maior */
+    
+    /* Centraliza o texto no meio */
+    display: flex;           /* Ativa o modo de caixa flexível */
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center;     /* Centraliza na vertical */
+    
+    /* Melhora o visual */
+    font-size: 28pt;         /* Aumenta o tamanho da letra */
+    font-weight: bold;       /* Deixa a letra em negrito */
+    border-radius: 8px;      /* Arredonda os cantos da cor */
+    margin-bottom: 20px;     /* Dá espaço para o contador não ficar grudado */
+    transition: background 0.5s; /* Deixa a troca de cor suave */
+}
+#contador {
+    font-family: Arial, sans-serif;
+    color: #444;
+    font-size: 14pt;
+    margin-top: 10px;
+}
