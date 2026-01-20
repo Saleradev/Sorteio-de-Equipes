@@ -47,6 +47,7 @@ Tecnologias utilizadas
 
 * **JavaScript (puro)**
 * HTML (estrutura básica)
+* CSS
 
 ---
 
